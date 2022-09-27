@@ -1,0 +1,190 @@
+.he1{
+    position: absolute;
+    left: 20% ;
+    width: 1000px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px; 
+    text-align: center;
+}
+#h1_he1{
+    color: white;
+    display: flex;
+    display: inline-block;
+    font-size: 40px;
+}
+#h2_he1{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+#img1_h1{ 
+    max-width: 100px;
+}
+#img2_h1{
+    max-width: 100px;
+}
+.nav1{
+    position: absolute;
+    left: 5%;
+    width: 200px;
+    height: 760px;
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px;
+    text-align: center;
+   
+}
+#img1_nav1{
+    max-width: 40px;
+}
+#T_nav1{
+    color: white;
+    font-size: 20px;    
+}
+#img1_nav1,#T_nav1{
+    display: flex;
+    display: inline-flex;
+}
+#p_nav1{
+    color: white;
+    font-size: 25px;
+}
+#img2_nav1{
+    max-width: 100px;
+}
+#p2_nav1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+#h3_nav{
+    color: white;
+    text-align: center;
+    font-size : 16px; 
+}
+.manla1{
+    position: absolute;
+    left: 20% ;
+    bottom: 10%;
+    max-width: 400px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px;
+    text-align: center;
+}
+#h1burgue{
+    color: white;
+    font-size: 50px; 
+}
+#pburgue1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#burgue1{
+    height: 350px;
+}
+.manla2{
+    position: absolute;
+    left: 64% ;
+    top: 15%;
+    max-width: 300px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px;
+    text-align: center;
+}
+#burgue2{
+    height: 350px;
+}
+#h2burgue{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+#pburgue2{
+    color: white;
+    font-size: 20px ;
+}
+.fot1{
+    position: absolute;
+    top: 100%;
+    height: 100px;
+    width: 1400px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px; 
+    text-align:center ;
+}
+#img1fot1{
+    max-width: 40px;
+}
+#img2fot2{
+    max-width: 40px;
+}
+#h1fot1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    display: inline-block;
+    font-size: 23px;
+}
+.main_beida1{ 
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    margin-bottom: 80px;
+    max-width: 300px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px;
+    text-align: center;
+}
+#h1_mojito{
+    color: white;
+    font-size: 45px;
+}
+#p_mojito{
+    color: white;
+    font-size: 24px;
+}
+.main_bebida2{
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    max-width: 400px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px;
+    text-align: center;    
+}
+#h1_whisky{
+    color: white;
+    font-size: 45px; 
+}
+#p_whisky{
+    color: white;
+    font-size: 35px;
+}
+.nav2{
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    width: 200px;
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px; 
+}
+#img_nav2{
+    max-width: 100px;
+    margin-left: 50px;
+}
+#h1_nav2{
+    text-align:center ;
+    font-size:  43px;
+    color: white; 
+}
+.fot2{
+    position: absolute;
+    top: 230%;
+    height: 100px;
+    width: 1400px;/* alinhameto do projeto*/
+    border-radius: 100px/*top*/ 100px /*Rigth*/ 100px/*boottom*/ 100px; 
+    text-align:center ;
+}
+#img1_fo1{
+    max-width: 100px;
+}
+#img2_fot2{
+    max-width: 50px;
+}
+#h1_fot2{
+    color: white;
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    font-size: 38px;
+}

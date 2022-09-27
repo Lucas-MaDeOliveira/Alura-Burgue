@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Burgue</title>
+    
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    
+    <style> 
+        html, body{
+           box-sizing: border-box;
+           margin: 0%;
+           padding: 0%;
+          background-image: url(/IMG/brown-wooden-flooring.jpg);
+        }
+       
+        .container{
+            display: grid;/*aqui começa as config do grid*/
+            grid-template: 10vh 70vh 5vh/1fr 1fr 1fr;
+            grid-template-areas:
+                                "nav1 he1 he1 "
+                                "nav1 manla1 manla2"
+                                "nav1 manla1 manla2"
+                                "nav1 fot1 fot1 "
+                                "main_beida1 main_bebida2 nav2"
+                                "main_beida1 main_bebida2 nav2"
+                                "fot2 fot2 fot2" ;
+            gap: 1vh;
+        }
+        
+        .he1{
+            background-color: black;
+            grid-area: he1;
+        }
+        
+        .nav1{
+            background-color: black;
+            grid-area: nav1;
+
+        }
+        
+        .manla1{
+            
+            grid-area: manla1;
+        }
+        
+        .manla2{
+            
+            grid-area: manla2;
+        }
+        
+        .fot1{
+            background-color: black;
+            grid-area: fot1;
+        }
+        
+        .main_beida1{
+            
+            grid-area: main_beida1;
+        }
+         
+        .main_bebida2{
+            
+            grid-area: main_bebida2;
+        }
+       
+        .nav2{
+            background-color: black;
+            grid-area: nav2;
+        }
+        
+        .fot2{
+            background-color: black;
+            grid-area: fot2;
+        } 
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="he1">
+            <img  id="img1_h1" src="/IMG/icone laging 1 - Copia.png" alt="Guzman Ratatouille"> 
+            <h1 id="h1_he1" >Alura Burgues o Burgue Dos Devs</h1>
+            <img id="img2_h1" src="/IMG/icone laging 1 - Copia.png" alt="Guzman Ratatouille"> 
+            <p id="h2_he1">Desde 1993</p> 
+        </header>
+        
+        <nav class="nav1">
+            <img id="img1_nav1" src="/IMG/—Pngtree—deliciuos burger illustration_8357738 (1).png" alt="Burgue Mosntro">
+            <h1 id="T_nav1">Quem somos</h1>
+            <p id="p_nav1"> Alura burgue é uma hamburgueria que foi aberta nos anos de 1913 pelo Mr.Jiraya com fins de ajudar os gurreiros da primera guerra mundial, e esta ate os dias de hoje trazendo muita alegeria e sabor para as pessoas de todos os generos </p>
+            <img  id="img2_nav1" src="/IMG/icone laging 1 - Copia.png" alt="">
+            <p id="p2_nav1" >"eu não vou fugir, eu nunca volto atrás na minha palavra. Este é o meu jeito cozinheiro de ser!"</p>
+            <h3 id="h3_nav">Mr.Jiraya</h3>
+        </nav>
+        
+        <main class="manla1">
+            <h1 id="h1burgue">X-Globo play</h1>
+            <p id="pburgue1">O X-Globo play é um dos melhor hamburguer que temos ele tem nada mais e nada menos que  dois burgues de picanha coim quieijo brie italiano e alem disso muito mas muito bacon, ao compra esse lache vem de brinde uma coca dois litro para voce não morre engasgado</p>
+           <img id="burgue1" src="/IMG/Lanche 1 S1.png" alt="">
+        </main>
+        
+        <main class="manla2">
+            <img  id="burgue2" src="/IMG/Lanche 2 S2.png" alt="">
+            <h1 id="h2burgue" >X-Netflix</h1>
+            <p id="pburgue2">O X-Netflix é um dos laches mais vendido em nossa Restaurante por que alem dele ter o nosso GRANDE MOLHO ESPECIAL ele acompanha um fondue de cheder, e o cliente pode escolher a quantidade de bacon que deseja e a quantidade de carne que deseja </p>
+        </main>
+        
+        <footer class="fot1">
+            <img id="img1fot1" src="/IMG/Icone foter 1.png" alt="">
+            <h1 id="h1fot1">Aqui no Alura Burgue temos uma variedade enorme de bebidas  Cervejas,Whisky,Refris e sucos e alem de bebeidas personalisada </h1> 
+            <img id="img2fot2" src="/IMG/Icone foter 2.png" alt="">
+        </footer>
+         <!--  -->
+        <main class="main_beida1">
+            <img id="mojito" src="/IMG/fresh-lime-drinks-macro-shot 1.png" alt="">
+            <h1 id="h1_mojito">mojito</h1>
+            <p id="p_mojito">Mojito é um coquetel à base de rum branco originário de Cuba. Esse coquetel com mais de 100 anos não tem sua origem tão bem documentada quanto o daiquiri ou a cuba-libre. Sabe-se que floresceu na noite de Havana usando ingredientes nativos do Caribe.</p>
+         </main>
+         
+        <main class="main_bebida2">
+           <h1 id="h1_whisky">Whisky</h1>
+           <p id="p_whisky">Aqui no Alura burgue temos uma variedade enorme de Whisky, temos para todos os paladares além da variedade você ainda pode fazer mistura que desejar com os nossos whisky</p>
+           <img id="whisky" src="/IMG/glass-of-whiskey-or-bourbon-only-with-ice 1.png" alt="">
+        </main>
+         
+        <nav class="nav2">
+            <img id="img_nav2" src="/IMG/Icone do aside.png" alt="">
+            <p id="h1_nav2">Aqui no alura burger servimos para todas as pessoas e para todos os gosto venha conhecer nosso espaço
+            </p>
+        </nav>
+            
+        <footer class="fot2">
+            <img id="img2_fot2" src="/IMG/Icone foter 1.png" alt=""> 
+            <h1 id="h1_fot2">@AluraBurqueOficial em todas as redes socias Contado: (11) 959739054</h1> 
+            <img id="img1_fo1" src="/IMG/icone laging 1 - Copia.png" alt="">
+        </footer>
+    </div>
+    
+</body>
+</html>
